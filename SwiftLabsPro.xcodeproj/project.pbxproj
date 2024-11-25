@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F83DEDC82CF51C5500ABB799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83DEDC72CF51C5500ABB799 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F83DEDC02CF51C5100ABB799 /* SwiftLabsPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLabsPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83DEDC72CF51C5500ABB799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		F83DEDB72CF51C5100ABB799 = {
 			isa = PBXGroup;
 			children = (
+				F83DEDC72CF51C5500ABB799 /* Assets.xcassets */,
 				F83DEDC22CF51C5100ABB799 /* SwiftLabsPro */,
 				F83DEDC12CF51C5100ABB799 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83DEDC82CF51C5500ABB799 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
